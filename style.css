@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  display:flex;
+  justify-content:space-between;
+  padding:1em;
+}
+#headerNav{
+  padding: none;
+}
+h1,h4{
+  font-family:'Courier New', Courier, monospace;
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.button{
+  text-alignign: center
+}
